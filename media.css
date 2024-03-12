@@ -87,6 +87,10 @@
     .footerbox2 {
         flex-direction: column;
     }
+
+    #utube{
+        display: none;
+    }
 }
 
 @media screen and (min-width:570px) and (max-width:1024px) {
@@ -101,7 +105,6 @@
     }
 
     .pet {
-        /* flex-direction: column; */
         width: unset;
         height: auto;
         padding: 20px 0;
@@ -133,4 +136,6 @@
     .footerbox2 {
         flex-direction: column;
     }
+
+    
 }

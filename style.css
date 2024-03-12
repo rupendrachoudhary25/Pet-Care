@@ -53,8 +53,6 @@ nav {
     justify-content: space-around;
     background-color: rgb(221, 220, 220);
     margin-top: 25px;
-    /* overflow: hidden; */
-    /* padding: 0 38px; */
 }
 
 .pet h3 {
@@ -92,7 +90,7 @@ nav {
 .anchor a:hover {
     color: black;
     background-color: rgb(236, 171, 4);
-    padding: 12px 18px;
+    padding: 10px 15px;
 }
 
 .image {
@@ -101,33 +99,14 @@ nav {
     object-fit: cover;
     border-radius: 50px;
     position: relative;
-
-    /* z-index:1; */
 }
 
-/* @keyframes blon
-{
-    
-    0%
-    {
-        border-radius: 60% 40% 30% 70%/40% 60% 30% 70%;
-    }
-    50%
-    {
-        border-radius: 40% 30% 70% 60%/60% 30% 40% 70%;
-    }
-    100%
-    {
-        border-radius: 70% 40% 30% 80%/40% 70% 30% 60%;
-    }
-} */
 .mycode {
     width: 640px;
     animation: blob 5s ease-in-out infinite;
     transition: all 1s ease-in-out;
     position: absolute;
     right: 60px;
-    /* filter: none; */
 }
 
 svg path {
@@ -159,8 +138,6 @@ svg path {
     object-fit: cover;
     border-radius: 50px;
     z-index: 1;
-    /* animation: blon 2s linear infinite;        */
-
 }
 
 .service h1 {
@@ -196,8 +173,7 @@ svg path {
 
 .anchortwo a:hover {
     color: black;
-    /* background-color: rgb(236, 171, 4); */
-    padding: 8px 18px;
+    padding: 8px 15px;
 
 }
 
@@ -277,8 +253,6 @@ svg path {
     height: 300px;
     border-radius: 10px 10px 0px 0px;
     transition: all 1s ease-in-out;
-
-
 }
 
 .image123:hover .font123 img {
@@ -286,14 +260,17 @@ svg path {
 }
 
 .image123 {
-    /* border: solid black; */
     width: 30%;
-    box-shadow: 5px 5px 10px lightgray;
+    box-shadow: 0px 0px 10px lightgray;
     border-radius: 12px;
     margin: 1%;
     height: 435px;
     background-color: #fff;
+}
 
+.image123:hover{
+    box-shadow: 0px 0px 10px gray;
+    transition: all 1s ease-in-out;
 }
 
 .image123 h4 {
@@ -306,14 +283,12 @@ svg path {
     text-decoration: none;
     color: white;
     font-size: 20px;
-    /* padding-bottom: 10px; */
     margin-bottom: 15px;
     transition: all 0.5s linear;
 }
 
 .image123 a:hover {
     color: black;
-    /* background-color: rgb(236, 171, 4); */
 }
 
 .image123 h4:hover {
@@ -335,17 +310,18 @@ svg path {
     width: 80%;
     margin: 30px 10%;
     border-radius: 25px;
-    box-shadow: 5px 5px 10px gray;
+    box-shadow: 0px 0px 7px gray;
     height: 350px;
-    /* border: orange; */
-    /* padding: 10px; */
+    transition: all 0.5s ease-in-out;
+}
 
+
+.map iframe:hover{
+    box-shadow: 0px 0px 15px gray;
 }
 
 .map {
     background-color: rgb(234, 231, 231);
-    /* margin-top: 20px;
-     */
     padding-top: 30px;
     margin: 100px 0;
 }
@@ -358,8 +334,6 @@ svg path {
     margin: 15px;
     text-align: start;
     font-size: 17px;
-    /* margin-top: 50px; */
-
 }
 
 .first p {
@@ -409,7 +383,6 @@ svg path {
     display: flex;
     text-align: center;
     justify-content: space-around;
-    /* background-color: purple; */
     color: black;
     padding-bottom: 10px;
 }
@@ -429,10 +402,7 @@ svg path {
     display: flex;
     text-align: center;
     justify-content: space-between;
-    /* background-color: ; */
-    /* border-top: 5px solid white; */
     padding: 30px 95px;
-
 }
 
 .pre a {
@@ -452,5 +422,4 @@ svg path {
 
 footer {
     background-color: rgb(227, 226, 226);
-    /* margin-top: 0px; */
 }
